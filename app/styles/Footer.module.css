@@ -1,0 +1,43 @@
+.footbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 0px 5px var(--shadow);
+    /* background-color: var(--background); */
+    background-color: red;
+}
+
+.logo img{
+    width: 125px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--para);
+    font-size: 1.1em;
+    gap: 1em;
+    list-style-type: none;
+    margin-right: 1em;
+    background-color: green;
+}
+
+.dot {
+    height: 10px;
+    margin-right: .5em;
+}
+
+.linkSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+.social {
+    width: 50px;
+    height: auto;
+}

@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px var(--shadow);
+    background-color: var(--background);
+}
+
+.logo img{
+    width: 125px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--para);
+    font-size: 1.1em;
+    gap: 1em;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+.dot {
+    height: 10px;
+    margin-right: .5em;
+}
