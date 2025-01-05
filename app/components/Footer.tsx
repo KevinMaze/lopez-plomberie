@@ -8,7 +8,7 @@ import Insta from "../../public/images/insta.png";
 
 const Footer = () => {
     return (
-        <div className={style.footbar}>
+        <footer className={style.footbar}>
             <div className={style.logo}>
                 <a href="/">
                     <Image src={logo} alt="logo de Lopez Plomberie" />
@@ -58,7 +58,7 @@ const Footer = () => {
                     />
                 </a>
             </div>
-        </div>
+        </footer>
     );
 };
 

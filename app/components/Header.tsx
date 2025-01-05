@@ -6,7 +6,7 @@ import { VscCircleFilled } from "react-icons/vsc";
 
 const Header = () => {
     return (
-        <div className={style.navbar}>
+        <header className={style.navbar}>
             <div className={style.logo}>
                 <a href="/">
                     <Image src={logo} alt="logo de Lopez Plomberie" />
@@ -39,7 +39,7 @@ const Header = () => {
                     <a href="#">Contact</a>
                 </li>
             </ul>
-        </div>
+        </header>
     );
 };
 
